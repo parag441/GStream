@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import { fetchStreams } from '../../actions';
-import history from '../../history';
 
 class StreamList extends React.Component {
     componentDidMount() {
